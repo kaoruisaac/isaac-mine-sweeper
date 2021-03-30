@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #333;
+}
+.controller {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+}
+button {
+    cursor: pointer;
+    padding: 0.5rem 2rem;
+}
+.GlobalPopUpFrame{
+    background-color: #ffffffe3;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0rem 0.5rem 0rem 0.5rem;
+}
+.GlobalPopUpFrame h2{
+    margin-top: 0;
+}
+.GlobalPopUpFrame .flex{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.GlobalPopUpFrame .flex input{
+    margin: 0 0.5rem;
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+    border: 1px solid #e2e2e2;
+    text-align: center;
+}
