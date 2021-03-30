@@ -21,7 +21,6 @@ class PlayGrid extends Component {
         this.setState({ grid, height, width });
     }
     Init(height, width, mineNum) {
-        console.log(height, width, mineNum);
         const { onStatusChange } = this.props;
         this.mineSweeper = new MineSweeperCore(height, width, { mineNum });
         this.setState({ height, width });
